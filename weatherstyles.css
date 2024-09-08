@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to right,white,pink,skyblue,yellow,white,darkgreen);
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: linear-gradient(to right, #4CAF50,white,pink ,orange,violet,yellow, #2196F3);
+    height: auto;
+    width: auto;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 200px 0px 200px 0px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+
+#A {
+    border-radius: 40px 0px 40px 0px;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    color:rgb(10, 17, 223);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.weather-info {
+    margin-bottom: 20px;
+    color: blue;
+    display: flex;
+}
+
+#city-input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid hsl(197, 80%, 70%);
+    border-radius: 25px 0px 25px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px 0px 25px 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+#city-name{
+    color: rgb(86, 5, 5);
+}
+#weather-result{
+    font-weight: 200;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
